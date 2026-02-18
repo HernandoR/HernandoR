@@ -48,6 +48,8 @@ _Auto-updated daily by GitHub Actions based on recent repository activity._
 
 ## GitHub Stats
 
-![HernandoR's GitHub Stats](https://github-readme-stats.vercel.app/api?username=HernandoR&show_icons=true&theme=radical)
+<!-- ![HernandoR's GitHub Stats](https://github-readme-stats.vercel.app/api?username=HernandoR&show_icons=true&theme=radical) -->
+
+![Stats](./profile/stats.svg)
 
 Thanks for visiting! Feel free to explore my repositories and connect.
