@@ -51,5 +51,7 @@ _Auto-updated daily by GitHub Actions based on recent repository activity._
 <!-- ![HernandoR's GitHub Stats](https://github-readme-stats.vercel.app/api?username=HernandoR&show_icons=true&theme=radical) -->
 
 ![Stats](./profile/stats.svg)
+![Top Languages](./profile/top-langs.svg)
+![Pinned](./profile/pin-readme-tools-github-readme-stats.svg)
 
 Thanks for visiting! Feel free to explore my repositories and connect.
