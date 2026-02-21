@@ -1,0 +1,26 @@
+font_path := "./src/fonts/"
+
+
+install-fonts os_name="ubuntu":
+  just install-fonts-{{os_name}}
+
+
+watch-cv lang="en":
+  typst watch ./cv.typ ./output/CV-{{lang}}.pdf --font-path {{font_path}} --input lang={{lang}}
+
+compile-cv lang="en":
+  typst compile ./cv.typ ./output/CV-{{lang}}.pdf --font-path {{font_path}} --input lang={{lang}}
+
+compile-cv-zh:
+  just compile-cv zh
+
+compile-cv-en:
+  just compile-cv en
+
+compile-cv-all:
+  just compile-cv-zh
+  just compile-cv-en
+
+compile-cv-ci:
+  just compile-cv-all
+

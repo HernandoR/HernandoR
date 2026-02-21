@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile-cv-en",
+      "type": "shell",
+      "options": {
+        "cwd": "${workspaceFolder}/cv"
+      },
+      "command": "typst",
+      "args": [
+        "compile",
+        "./cv.typ",
+        "./output/CV-en.pdf",
+        "--font-path",
+        "./src/fonts/",
+        "--input",
+        "lang=en"
+      ],
+      "group": "build"
+    },
+    {
+      "label": "Compile-cv-zh",
+      "type": "shell",
+      "options": {
+        "cwd": "${workspaceFolder}/cv"
+      },
+      "command": "typst",
+      "args": [
+        "compile",
+        "./cv.typ",
+        "./output/CV-zh.pdf",
+        "--font-path",
+        "./src/fonts/",
+        "--input",
+        "lang=zh"
+      ],
+      "group": "build"
+    }
+  ]
+}

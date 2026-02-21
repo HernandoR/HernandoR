@@ -1,0 +1,106 @@
+name: CV Build and Release
+
+on:
+    push:
+        branches:
+            - main
+        paths:
+            - "cv/**"
+    schedule:
+        - cron: "0 1 * * *"
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+concurrency:
+    group: cv-${{ github.ref }}
+    cancel-in-progress: true
+
+jobs:
+    build-cv:
+        name: Build CV PDFs
+        runs-on: ubuntu-latest
+        # if changes on cv/ directory, otherwise skip
+        if: |
+            github.event_name == 'schedule' ||
+            github.event_name == 'workflow_dispatch' ||
+            (github.event_name == 'push' && contains(github.event.head_commit.message, 'cv/'))
+        outputs:
+            artifact_name: ${{ steps.meta.outputs.artifact_name }}
+            short_sha: ${{ steps.meta.outputs.short_sha }}
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Setup Typst
+              uses: typst-community/setup-typst@v3
+
+            - name: Setup just
+              uses: taiki-e/install-action@just
+
+            - name: Ensure font install scripts are executable
+              run: |
+                  chmod +x cv/scripts/install_fonts_ubuntu.sh
+
+            - name: Install required fonts (skip installed)
+              run: |
+                  cd cv
+                  just install-fonts ubuntu
+
+            - name: Build CV (en + zh)
+              run: |
+                  cd cv
+                  just compile-cv-all
+
+            - name: Prepare artifact metadata
+              id: meta
+              run: |
+                  echo "artifact_name=cv-${GITHUB_SHA}" >> "$GITHUB_OUTPUT"
+                  echo "short_sha=${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+
+            - name: Upload CV artifact
+              uses: actions/upload-artifact@v4
+              with:
+                  name: ${{ steps.meta.outputs.artifact_name }}
+                  path: |
+                      cv/output/CV-en.pdf
+                      cv/output/CV-zh.pdf
+                  if-no-files-found: error
+                  retention-days: 14
+
+    release-cv:
+        name: Release CV PDFs
+        needs: build-cv
+        runs-on: ubuntu-latest
+        steps:
+            - name: Download build artifact
+              uses: actions/download-artifact@v4
+              with:
+                  name: ${{ needs.build-cv.outputs.artifact_name }}
+                  path: dist
+
+            - name: Generate release tag (yy.mm.dd)
+              id: rel
+              run: |
+                  TAG_NAME="$(date -u +'%y.%m.%d')"
+                  echo "tag_name=${TAG_NAME}" >> "$GITHUB_OUTPUT"
+
+            - name: Rename assets with tag and sha
+              run: |
+                  TAG_NAME="${{ steps.rel.outputs.tag_name }}"
+                  SHORT_SHA="${{ needs.build-cv.outputs.short_sha }}"
+                  mv dist/CV-en.pdf "dist/CV-en-${TAG_NAME}-${SHORT_SHA}.pdf"
+                  mv dist/CV-zh.pdf "dist/CV-zh-${TAG_NAME}-${SHORT_SHA}.pdf"
+
+            - name: Create GitHub Release
+              uses: softprops/action-gh-release@v2
+              with:
+                  tag_name: ${{ steps.rel.outputs.tag_name }}
+                  name: CV ${{ steps.rel.outputs.tag_name }}
+                  target_commitish: ${{ github.sha }}
+                  make_latest: true
+                  overwrite_files: true
+                  files: |
+                      dist/*.pdf
+                  generate_release_notes: true
