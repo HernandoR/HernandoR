@@ -2,7 +2,7 @@
 
 // Optional variant for modules folder suffix.
 // INFO: value must match folder suffix; i.e. "SinglePage" -> "./modules_SinglePage"
-#let varVersion = "" 
+#let varVersion = ""
 
 // Language is injected from CLI: --input lang=en|zh
 // Fallback order: lang -> Language -> "en"
@@ -42,21 +42,21 @@
 #let awesomeColor = "skyblue"
 
 // Leave blank if profil photo is not needed
-#let profilePhoto = "./src/avatar.png" 
+#let profilePhoto = "../src/avatar.png"
 
 
 // Decide if you want to put your company in bold or your position in bold
-#let varEntrySocietyFirst = false 
+#let varEntrySocietyFirst = false
 
-// Decide if you want to display organisation logo or not
+// Decide if you want to display organization logo or not
 #let varDisplayLogo = true
 
 // for cvFooter and letterFooter arrays, add your own languages while the keys must match the varLanguage variable
 #let cvFooterInternational = (
-  "": "Latest CV will be updated at https://github.com/HernandoR/HernandoR/releases/download/latest/CV-en.pdf",
-  "en": "Latest CV will be updated at https://github.com/HernandoR/HernandoR/releases/download/latest/CV-en.pdf",
+  "": "Latest CV will be updated at https://github.com/HernandoR/HernandoR/latest/releases/download/CV-en.pdf",
+  "en": "Latest CV will be updated at https://github.com/HernandoR/HernandoR/latest/releases/download/CV-en.pdf",
   "fr": "",
-  "zh": "最新简历将更新在 https://github.com/HernandoR/HernandoR/releases/download/latest/CV-zh.pdf"
+  "zh": "最新简历将更新在 https://github.com/HernandoR/HernandoR/latest/releases/download/CV-zh.pdf"
 )
 
 #let letterFooterInternational = (
