@@ -2,8 +2,7 @@ font_path := "./src/fonts/"
 
 
 install-fonts os_name="ubuntu":
-  just install-fonts-{{os_name}}
-
+  bash ./scripts/install_fonts_{{os_name}}.sh
 
 watch-cv lang="en":
   typst watch ./cv.typ ./output/CV-{{lang}}.pdf --font-path {{font_path}} --input lang={{lang}}

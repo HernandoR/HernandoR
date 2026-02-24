@@ -57,8 +57,8 @@
 //     date: [06/2023 - 10/2023],
 //     location: [Shanghai, China],
 //     description: list(
-//       [Imporved firmware of Openwrt by injecting extra drivers.],
-//       [Custumize the firmware build process for required packages.],
+//       [Improved firmware of Openwrt by injecting extra drivers.],
+//       [Customize the firmware build process for required packages.],
 //       [Automate the building process by CI/CD in github]
 //     )
 //   ),

@@ -1,6 +1,6 @@
 #import "../brilliant-CV/template.typ": *
 
-#cvSection("Honers and Certificates")
+#cvSection("Honors and Certificates")
 
 #cvHonor(..languageSwitch((
   "en":( 

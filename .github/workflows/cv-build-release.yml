@@ -6,8 +6,6 @@ on:
             - main
         paths:
             - "cv/**"
-    schedule:
-        - cron: "0 1 * * *"
     workflow_dispatch:
 
 permissions:
@@ -21,11 +19,10 @@ jobs:
     build-cv:
         name: Build CV PDFs
         runs-on: ubuntu-latest
-        # if changes on cv/ directory, otherwise skip
+        # triggered only for cv/** changes on push (via paths), or on dispatch
         if: |
-            github.event_name == 'schedule' ||
             github.event_name == 'workflow_dispatch' ||
-            (github.event_name == 'push' && contains(github.event.head_commit.message, 'cv/'))
+            github.event_name == 'push'
         outputs:
             artifact_name: ${{ steps.meta.outputs.artifact_name }}
             short_sha: ${{ steps.meta.outputs.short_sha }}
