@@ -67,7 +67,7 @@ Ubuntu installer skips installation when required fonts already exist:
 ## CI / Release
 
 - Workflow: `.github/workflows/cv-build-release.yml`
-- Build trigger: daily schedule (UTC) or manual dispatch
+- Build trigger: push to `cv/**` or manual dispatch
 - Release tag: auto-generated as `yy.mm.dd` (example: `26.06.01`)
 - Artifact naming: `cv-<full-git-sha>`
 - Release job reuses uploaded artifact (no second compile)
@@ -89,7 +89,7 @@ just compile-cv-all
 ### 3) Create a release
 
 No manual tag push is required.
-The workflow creates/updates the daily release tag automatically in `yy.mm.dd` format.
+The workflow creates/updates the release tag automatically in `yy.mm.dd` format.
 
 The workflow will:
 
