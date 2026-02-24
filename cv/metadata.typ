@@ -53,10 +53,10 @@
 
 // for cvFooter and letterFooter arrays, add your own languages while the keys must match the varLanguage variable
 #let cvFooterInternational = (
-  "": "Latest CV will be updated at https://github.com/HernandoR/HernandoR/latest/releases/download/CV-en.pdf",
-  "en": "Latest CV will be updated at https://github.com/HernandoR/HernandoR/latest/releases/download/CV-en.pdf",
+  "": "Latest CV will be updated at https://github.com/HernandoR/HernandoR/releases/latest/download/CV-en.pdf",
+  "en": "Latest CV will be updated at https://github.com/HernandoR/HernandoR/releases/latest/download/CV-en.pdf",
   "fr": "",
-  "zh": "最新简历将更新在 https://github.com/HernandoR/HernandoR/latest/releases/download/CV-zh.pdf"
+  "zh": "最新简历将更新在 https://github.com/HernandoR/HernandoR/releases/latest/download/CV-zh.pdf"
 )
 
 #let letterFooterInternational = (
