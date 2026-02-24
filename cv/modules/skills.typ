@@ -16,7 +16,7 @@
 #cvSkill(..languageSwitch((
   "en":(
     type: [Tech Stack],
-    info: [Mathmetical model #hBar() Python (Pandas/Numpy) #hBar() Rust #hBar() Computer Vision #hBar() 3D reconstracture #hBar() Machine Learning(PyTorch) #hBar git #hBar() Tableau]
+    info: [Mathematical model #hBar() Python (Pandas/Numpy) #hBar() Rust #hBar() Computer Vision #hBar() 3D reconstruction #hBar() Machine Learning(PyTorch) #hBar git #hBar() Tableau]
   ),
   
   "zh":(
