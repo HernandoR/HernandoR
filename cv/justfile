@@ -8,6 +8,7 @@ watch-cv lang="en":
   typst watch ./cv.typ ./output/CV-{{lang}}.pdf --font-path {{font_path}} --input lang={{lang}}
 
 compile-cv lang="en":
+  mkdir -p ./output
   typst compile ./cv.typ ./output/CV-{{lang}}.pdf --font-path {{font_path}} --input lang={{lang}}
 
 compile-cv-zh:
