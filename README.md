@@ -9,6 +9,8 @@ Algorithm Engineer focused on 3D reconstruction, machine learning, and scalable 
 - 🧠 Interests: Computer Vision, 3D Reconstruction, ML Systems, and DevOps.
 - 🌱 Actively contributing to open source in Rust and Python ecosystems.
 - 📫 Reach me: [Email](mailto:lzhen.dev@outlook.com) · [LinkedIn](https://www.linkedin.com/in/liuzhen23)
+- 📄 Latest CV: [English](https://github.com/HernandoR/HernandoR/releases/download/latest/CV-en.pdf) · [中文](https://github.com/HernandoR/HernandoR/releases/download/latest/CV-zh.pdf)
+- ⚡ Fun fact: I enjoy competitive programming and have a strong background in algorithmic problem-solving.
 
 ## Tech Stack
 
@@ -31,6 +33,7 @@ Algorithm Engineer focused on 3D reconstruction, machine learning, and scalable 
 _Auto-updated daily by GitHub Actions based on recent repository activity._
 
 <!-- RECENT_REPOS:START -->
+
 - [HernandoR/HernandoR](https://github.com/HernandoR/HernandoR) — No description. _(Python, updated: 2026-02-23)_
 - [HernandoR/FrameCloud](https://github.com/HernandoR/FrameCloud) — A point cloud lib that uses table engine like polars and pandas as backend _(Python, updated: 2026-02-22)_
 - [HernandoR/pcl-rustic](https://github.com/HernandoR/pcl-rustic) — No description. _(Rust, updated: 2026-02-03)_

@@ -42,7 +42,7 @@
 #let awesomeColor = "skyblue"
 
 // Leave blank if profil photo is not needed
-#let profilePhoto = "../src/avatar.png" 
+#let profilePhoto = "./src/avatar.png" 
 
 
 // Decide if you want to put your company in bold or your position in bold
@@ -53,10 +53,10 @@
 
 // for cvFooter and letterFooter arrays, add your own languages while the keys must match the varLanguage variable
 #let cvFooterInternational = (
-  "": "Curriculum vitae",
-  "en": "Curriculum vitae",
-  "fr": "Résumé",
-  "zh": "简历"
+  "": "Latest CV will be updated at https://github.com/HernandoR/HernandoR/releases/download/latest/CV-en.pdf",
+  "en": "Latest CV will be updated at https://github.com/HernandoR/HernandoR/releases/download/latest/CV-en.pdf",
+  "fr": "",
+  "zh": "最新简历将更新在 https://github.com/HernandoR/HernandoR/releases/download/latest/CV-zh.pdf"
 )
 
 #let letterFooterInternational = (
