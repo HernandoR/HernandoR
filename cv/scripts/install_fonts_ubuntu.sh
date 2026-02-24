@@ -21,6 +21,13 @@ else
   need_firacode_nerd=true
 fi
 
+# fontawsome
+if has_font "Font Awesome 7 Free"; then
+  echo "[skip] Font Awesome 7 Free already installed"
+else
+  need_font_awesome=true
+fi
+
 if [[ "$need_noto" == false && "$need_firacode_nerd" == false ]]; then
   echo "All required fonts are already installed."
   exit 0
@@ -43,6 +50,19 @@ if [[ "$need_firacode_nerd" == true ]]; then
   rm -rf "$TMP_DIR"
 fi
 
+if [[ "$need_font_awesome" == true ]]; then
+  echo "Installing Font Awesome 7 Free to user font directory..."
+  FONT_DIR="${HOME}/.local/share/fonts"
+  TMP_DIR="$(mktemp -d)"
+  mkdir -p "$FONT_DIR"
+  curl -fsSL -o "$TMP_DIR/FontAwesome.zip" "https://use.fontawesome.com/releases/v7.2.0/fontawesome-free-7.2.0-desktop.zip"
+  unzip -oq "$TMP_DIR/FontAwesome.zip" -d "$TMP_DIR/FontAwesome"
+  # fontawesome-free-7.2.0-desktop/otfs/*.otf
+  find "$TMP_DIR/FontAwesome/fontawesome-free-7.2.0-desktop/otfs" -type f -name "*.otf" -exec cp {} "$FONT_DIR/" \;
+  rm -rf "$TMP_DIR"
+fi
+
+
 fc-cache -f
 
 if has_font "Noto Sans CJK SC"; then
@@ -55,4 +75,10 @@ if has_font "FiraCode Nerd Font Mono"; then
   echo "[ok] FiraCode Nerd Font Mono is available"
 else
   echo "[warn] FiraCode Nerd Font Mono still not found"
+fi
+
+if has_font "Font Awesome 7 Free"; then
+  echo "[ok] Font Awesome 7 Free is available"
+else
+  echo "[warn] Font Awesome 7 Free still not found"
 fi
