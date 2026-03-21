@@ -213,13 +213,21 @@
 }
 
 #let honorTitleStyle(str) = {text(
-  // weight: "bold",
+  size: SmallFontSize,
   str
 )}
 
 #let honorIssuerStyle(str) = {text(
+  size: SmallFontSize,
   str
 )}
+
+#let honorHeaderStyle(str, align_arg) = {align(align_arg,text(
+  size: RegularFontSize,
+  weight: "bold",
+  fill: accentColor,
+  str
+))}
 
 #let honorLocationStyle(str) = {align(right, text(
   weight: "medium",
@@ -436,30 +444,40 @@
   v(-LargeGap)
 }
 
-#let cvHonor(
+#let cvHonorEntry(
   date: "1990",
   title: "Title",
   issuer: "",
   location: ""
+) = (
+  date: date,
+  title: title,
+  issuer: issuer,
+  location: location,
+)
+
+#let cvHonor(
+  entries: (),
+  showHeader: true,
 ) = {
   table(
-    columns: (16%, 1fr,25%),
-    inset: 0pt,
+    columns: (16%, 1fr, 25%),
+    inset: 0% + 1pt,
     column-gutter: RegularFontSize,
-    // row-gutter: TinyGap,
-    rows: RegularFontSize,
+    row-gutter: LargeGap,
     align: horizon,
     stroke: none,
-    honorDateStyle(date),
-    honorTitleStyle(title),
-    honorIssuerStyle(issuer)
-    // [#honorIssuerStyle(issuer) #honorLocationStyle(location)],
-    // if issuer == "" {
-    //   honorTitleStyle(title)
-    // } else [
-    //   #honorTitleStyle(title), #honorIssuerStyle(issuer)
-    // ],
-    // honorLocationStyle(location)
+ 
+    table.header(honorHeaderStyle(languageSwitch(("en": [Date], "zh": [日期])), right),
+    honorHeaderStyle(languageSwitch(("en": [Honor / Certificate], "zh": [荣誉 / 证书])), left),
+    honorHeaderStyle(languageSwitch(("en": [Issuer], "zh": [颁发方])), left),),
+    ..for entry in entries {
+      (
+        honorDateStyle(entry.at("date", default: "")),
+        honorTitleStyle(entry.at("title", default: "")),
+        honorIssuerStyle(entry.at("issuer", default: "")),
+      )
+    }
   )
   v(-LargeGap)
 }
