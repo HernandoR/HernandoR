@@ -14,7 +14,7 @@
 #let personalInfo = (
   github: "HernandoR",
   phone: "+86 15671190677",
-  email: "zliu046@e.ntu.edu.sg",
+  email: "lzhen.cn@outlook.com",
   linkedin: "liuzhen23",
   //gitlab: "mintyfrankie",
   //homepage: "jd.me.org",
