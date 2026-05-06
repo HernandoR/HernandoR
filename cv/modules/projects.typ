@@ -85,7 +85,6 @@
       [#cvHighlight("Trained multiple segmentation models") including UNet, FPNet, and SegNet],
       [Constructed a PyTorch training template.],
       [Performed SageMaker auto-training.],
-      [Evaluated Segment Anything Model (SAM) from Meta]
     )
   ),
   "zh": (
@@ -96,8 +95,7 @@
     description: list(
       [#cvHighlight("训练了多个图像分割模型")，包括 UNet、FPENet、SegNet],
       [构建了一个 PyTorch 训练模板。],
-      [执行了 AWS SageMaker 自动训练。],
-      [评估了Meta 的 Segment Anything Model (SAM)。]
+      [使用 AWS SageMaker 自动训练。],
     )
   )
 )))
