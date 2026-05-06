@@ -14,6 +14,8 @@
       [Trained feed-forward models for visual reconstruction on #cvHighlight("multi-GPU") setups],
       [Completed training and data effect validation of visual reconstruction models based on multi-GPU clusters, iteratively refining data filtering and cleaning rules],
       [Developed and deployed an internal Python SDK for training data production & asset management, standardizing data processing pipelines],
+      [Promoted the adoption of uv within the team, simplifying environment configuration],
+      [Refactored project architecture to enable automatic docker image packaging],
       [Keywords: 3D reconstruction, machine learning, data engineering, deep learning, algorithm optimization]
     ),
     logo: "../src/logos/xiaomi.png",
@@ -30,6 +32,8 @@
       [在#cvHighlight("多 GPU")上训练视觉重建的前馈模型],
       [基于多GPU集群完成视觉重建模型训练与数据效果验证，反向迭代数据筛选与清洗规则],
       [自研并落地内部训练数据生产&资产管理Python SDK，标准化数据处理流水线],
+      [推动 uv 在团队中落地使用，简化环境配置],
+      [重构项目架构，实现自动docker image 封装],
       [关键词: 3D重建, 机器学习, 数据工程, 深度学习, 算法优化]
     ),
     logo: "../src/logos/xiaomi.png",
