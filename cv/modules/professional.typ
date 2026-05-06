@@ -9,11 +9,12 @@
     date: [ 2024.07 - now],
     location: [ Wuhan, China ],
     description: list(
-      [Built a multi-vehicle, multi-trip ground truth data pipeline from scratch, #cvHighlight("improving data annotation efficiency by 500%+")],
-      [Train models with internal datasets for ground truth generation in production scenarios],
-      [Trained and deployed a feed-forward model for scene reconstruction on #cvHighlight("multi-GPU infrastructure")],
-      [Developed and released a #cvHighlight("Python SDK") for internal training data production and management],
-      [Keywords: 3D reconstruction, machine learning, deep learning, algorithm optimization]
+      [Built the *multi-vehicle multi-trip* ground truth data production pipeline from scratch, #cvHighlight("improving data annotation efficiency by 500%+")],
+      [Aligned with annotation/support teams to design labeling system and annotation specifications],
+      [Trained feed-forward models for visual reconstruction on #cvHighlight("multi-GPU") setups],
+      [Completed training and data effect validation of visual reconstruction models based on multi-GPU clusters, iteratively refining data filtering and cleaning rules],
+      [Developed and deployed an internal Python SDK for training data production & asset management, standardizing data processing pipelines],
+      [Keywords: 3D reconstruction, machine learning, data engineering, deep learning, algorithm optimization]
     ),
     logo: "../src/logos/xiaomi.png",
   ),
@@ -25,10 +26,11 @@
     location: [ 武汉, 中国 ],
     description: list(
       [从 0-1 建设*多车多趟*真值数据生产链路，#cvHighlight("数据标注效率提升 500%+")],
-      [用内部数据集训练模型，用于生产场景真值],
-      [在#cvHighlight("多 GPU")上训练和部署用于场景重建任务的前馈模型],
-      [开发并发布用于内部训练数据生产和管理的#cvHighlight("Python SDK")],
-      [关键词: 3D重建, 机器学习, 深度学习, 算法优化]
+      [与标注/支持团队对齐，设计标签体系与标注规范],
+      [在#cvHighlight("多 GPU")上训练视觉重建的前馈模型],
+      [基于多GPU集群完成视觉重建模型训练与数据效果验证，反向迭代数据筛选与清洗规则],
+      [自研并落地内部训练数据生产&资产管理Python SDK，标准化数据处理流水线],
+      [关键词: 3D重建, 机器学习, 数据工程, 深度学习, 算法优化]
     ),
     logo: "../src/logos/xiaomi.png",
   )
