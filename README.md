@@ -35,9 +35,9 @@ _Auto-updated daily by GitHub Actions based on recent repository activity._
 <!-- RECENT_REPOS:START -->
 - [HernandoR/agent-skillset](https://github.com/HernandoR/agent-skillset) — No description. _(Python, updated: 2026-06-23)_
 - [HernandoR/dotfiles](https://github.com/HernandoR/dotfiles) — :wrench: .files, including ~/.macos — sensible hacker defaults for macOS _(Shell, updated: 2026-06-29)_
-- [HernandoR/HernandoR](https://github.com/HernandoR/HernandoR) — No description. _(Typst, updated: 2026-06-30)_
+- [HernandoR/HernandoR](https://github.com/HernandoR/HernandoR) — No description. _(Typst, updated: 2026-07-01)_
 - [HernandoR/FrameCloud](https://github.com/HernandoR/FrameCloud) — A point cloud lib that uses table engine like polars and pandas as backend _(Python, updated: 2026-03-01)_
-- [HernandoR/pcl-rustic](https://github.com/HernandoR/pcl-rustic) — No description. _(Rust, updated: 2026-06-03)_
+- [HernandoR/pcl-rustic](https://github.com/HernandoR/pcl-rustic) — No description. _(Rust, updated: 2026-07-01)_
 - [HernandoR/pcl-rustic-old](https://github.com/HernandoR/pcl-rustic-old) — No description. _(Rust, updated: 2026-02-20)_
 <!-- RECENT_REPOS:END -->
 
