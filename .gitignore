@@ -1,1 +1,24 @@
+# macOS
+.DS_Store
+
+# Typst / CV build output
 output/
+*.pdf
+
+# Downloaded fonts (keep the tracked placeholder)
+cv/src/fonts/*
+!cv/src/fonts/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Editor / OS
+*.swp
+Thumbs.db
