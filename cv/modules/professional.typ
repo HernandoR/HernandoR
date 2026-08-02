@@ -4,9 +4,29 @@
 
 #cvEntry(..languageSwitch((
   "en": (
+    title: [ ML Algorithm Engineer ],
+    society: [ Mewtant ],
+    date: [ 2026.07 - Present],
+    location: [ Shanghai, China ],
+    description: list(
+      [Develop and deploy machine learning Data pipelines for AI-Gernerated Content (AIGC)]
+    ),),
+  "zh": (
+    title: [ 机器学习算法工程师 ],
+    society: [ Mewtant ],
+    date: [ 2026.07 - Present],
+    location: [ 上海, 中国 ],
+    description: list(
+      [开发并部署用于 AI 生成内容 (AIGC) 的机器学习数据管道]
+    ),
+  )
+)))
+
+#cvEntry(..languageSwitch((
+  "en": (
     title: [ Algorithm Engineer ],
     society: [ Xiaomi Corporation],
-    date: [ 2024.07 - now],
+    date: [ 2024.07 - 2026.06],
     location: [ Wuhan, China ],
     description: list(
       [Built the *multi-vehicle multi-trip* ground truth data production pipeline from scratch, #cvHighlight("improving data annotation efficiency by 500%+")],
@@ -24,7 +44,7 @@
   "zh": (
     title: [ 算法工程师 ],
     society: [ 小米科技 ],
-    date: [ 2024.07 - 至今],
+    date: [ 2024.07 - 2026.06],
     location: [ 武汉, 中国 ],
     description: list(
       [从 0-1 建设*多车多趟*真值数据生产链路，#cvHighlight("数据标注效率提升 500%+")],
