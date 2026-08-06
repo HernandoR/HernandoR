@@ -10,7 +10,9 @@
     location: [ Shanghai, China ],
     description: list(
       [Develop and deploy machine learning Data pipelines for AI-Gernerated Content (AIGC)]
-    ),),
+    ),
+    logo: "../src/logos/Mewtant_logo.webp",
+    ),
   "zh": (
     title: [ 机器学习算法工程师 ],
     society: [ Mewtant ],
@@ -19,6 +21,7 @@
     description: list(
       [开发并部署用于 AI 生成内容 (AIGC) 的机器学习数据管道]
     ),
+    logo: "../src/logos/Mewtant_logo.webp",
   )
 )))
 
