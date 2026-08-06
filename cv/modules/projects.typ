@@ -21,34 +21,34 @@
       [(*Python*) Pytransform3D: 使该包支持 #cvHighlight("array-api")]
     )
   )
-    
+
 )))
 
-#cvEntry(noPageBreak: true, ..languageSwitch((
-  "en": (
-    title: [Personal Server | DevOps],
-    society: [Personal Project],
-    date: [08/2021 - Present],
-    location: [Shanghai, China],
-    description: list(
-      [Migrated services into #cvHighlight("Kubernetes") and secured access with #cvHighlight("TLS + AWS CDN")],
-      [Deployed multiple virtual machines hosted on Proxmox Virtual Environment.],
-      [Constructed an automatic TV tracking system with docker-compose.],
-      [Implemented long-term homelab service operations and maintenance.]
-    )
-  ),
-  "zh": (
-    title: [个人服务器 | DevOps],
-    society: [个人项目],
-    date: [08/2021 - 至今],
-    location: [中国上海],
-    description: list(
-      [将服务迁移到 #cvHighlight("Kubernetes")，并通过 #cvHighlight("TLS + AWS CDN") 保证安全访问],
-      [在 Proxmox 虚拟环境上部署了多个虚拟机。],
-      [通过 docker-compose 构建了自动影视系统。]
-    )
-  )
-)))
+// #cvEntry(noPageBreak: true, ..languageSwitch((
+//   "en": (
+//     title: [Personal Server | DevOps],
+//     society: [Personal Project],
+//     date: [08/2021 - Present],
+//     location: [Shanghai, China],
+//     description: list(
+//       [Migrated services into #cvHighlight("Kubernetes") and // secured access with #cvHighlight("TLS + AWS CDN")],
+//       [Deployed multiple virtual machines hosted on Proxmox // Virtual Environment.],
+//       [Constructed an automatic TV tracking system with // docker-compose.],
+//       [Implemented long-term homelab service operations and // maintenance.]
+//     )
+//   ),
+//   "zh": (
+//     title: [个人服务器 | DevOps],
+//     society: [个人项目],
+//     date: [08/2021 - 至今],
+//     location: [中国上海],
+//     description: list(
+//       [将服务迁移到 #cvHighlight("Kubernetes")，并通过 #cvHighlight// ("TLS + AWS CDN") 保证安全访问],
+//       [在 Proxmox 虚拟环境上部署了多个虚拟机。],
+//       [通过 docker-compose 构建了自动影视系统。]
+//     )
+//   )
+// )))
 
 // #cvEntry(..languageSwitch((
 //   "en": (
