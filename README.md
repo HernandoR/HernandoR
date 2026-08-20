@@ -38,7 +38,7 @@ _Auto-updated daily by GitHub Actions based on recent repository activity._
 - [HernandoR/dotfiles](https://github.com/HernandoR/dotfiles) — :wrench: .files based on lix and mise _(Python, updated: 2026-08-13)_
 - [HernandoR/pcl-rustic](https://github.com/HernandoR/pcl-rustic) — No description. _(Rust, updated: 2026-07-01)_
 - [HernandoR/claw-code](https://github.com/HernandoR/claw-code) — The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex. _(Rust, updated: 2026-04-15)_
-- [HernandoR/HernandoR](https://github.com/HernandoR/HernandoR) — No description. _(Typst, updated: 2026-08-18)_
+- [HernandoR/HernandoR](https://github.com/HernandoR/HernandoR) — No description. _(Typst, updated: 2026-08-19)_
 <!-- RECENT_REPOS:END -->
 
 ## Open Source Contributions
