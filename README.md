@@ -38,7 +38,7 @@ _Auto-updated daily by GitHub Actions based on recent repository activity._
 - [HernandoR/awesome-blogCN-feeds](https://github.com/HernandoR/awesome-blogCN-feeds) — 优质的「独立中文博客」订阅列表 _(Python, updated: 2026-08-02)_
 - [HernandoR/dotfiles](https://github.com/HernandoR/dotfiles) — :wrench: .files based on lix and mise _(Python, updated: 2026-08-20)_
 - [HernandoR/claw-code](https://github.com/HernandoR/claw-code) — The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex. _(Rust, updated: 2026-04-15)_
-- [HernandoR/HernandoR](https://github.com/HernandoR/HernandoR) — No description. _(Typst, updated: 2026-08-24)_
+- [HernandoR/HernandoR](https://github.com/HernandoR/HernandoR) — No description. _(Typst, updated: 2026-08-25)_
 <!-- RECENT_REPOS:END -->
 
 ## Open Source Contributions
