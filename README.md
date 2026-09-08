@@ -38,7 +38,7 @@ _Auto-updated daily by GitHub Actions based on recent repository activity._
 - [HernandoR/pcl-rustic](https://github.com/HernandoR/pcl-rustic) — No description. _(Rust, updated: 2026-09-01)_
 - [HernandoR/agent-skillset](https://github.com/HernandoR/agent-skillset) — No description. _(Python, updated: 2026-09-07)_
 - [HernandoR/awesome-blogCN-feeds](https://github.com/HernandoR/awesome-blogCN-feeds) — 优质的「独立中文博客」订阅列表 _(Python, updated: 2026-08-02)_
-- [HernandoR/dotfiles](https://github.com/HernandoR/dotfiles) — :wrench: .files based on lix and mise _(Python, updated: 2026-09-06)_
+- [HernandoR/dotfiles](https://github.com/HernandoR/dotfiles) — :wrench: .files based on lix and mise _(Python, updated: 2026-09-08)_
 <!-- RECENT_REPOS:END -->
 
 ## Open Source Contributions
