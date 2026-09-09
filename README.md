@@ -33,12 +33,12 @@ Algorithm Engineer focused on 3D reconstruction, machine learning, and scalable 
 _Auto-updated daily by GitHub Actions based on recent repository activity._
 
 <!-- RECENT_REPOS:START -->
+- [HernandoR/MrRSS](https://github.com/HernandoR/MrRSS) — A modern, cross-platform, and free AI RSS reader. 一个现代化、跨平台且免费的 AI RSS 阅读器. _(Go, updated: 2026-09-09)_
 - [HernandoR/miniflux-v2](https://github.com/HernandoR/miniflux-v2) — Minimalist and opinionated feed reader _(Misc, updated: 2026-09-06)_
-- [HernandoR/duckdb-vscode](https://github.com/HernandoR/duckdb-vscode) — A duckdb "studio" extension for vscode _(TypeScript, updated: 2026-09-03)_
+- [HernandoR/duckdb-vscode](https://github.com/HernandoR/duckdb-vscode) — A duckdb "studio" extension for vscode _(TypeScript, updated: 2026-09-09)_
 - [HernandoR/pcl-rustic](https://github.com/HernandoR/pcl-rustic) — No description. _(Rust, updated: 2026-09-01)_
-- [HernandoR/agent-skillset](https://github.com/HernandoR/agent-skillset) — No description. _(Python, updated: 2026-09-07)_
+- [HernandoR/agent-skillset](https://github.com/HernandoR/agent-skillset) — No description. _(Python, updated: 2026-09-09)_
 - [HernandoR/awesome-blogCN-feeds](https://github.com/HernandoR/awesome-blogCN-feeds) — 优质的「独立中文博客」订阅列表 _(Python, updated: 2026-08-02)_
-- [HernandoR/dotfiles](https://github.com/HernandoR/dotfiles) — :wrench: .files based on lix and mise _(Python, updated: 2026-09-08)_
 <!-- RECENT_REPOS:END -->
 
 ## Open Source Contributions
