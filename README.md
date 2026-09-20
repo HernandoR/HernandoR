@@ -33,12 +33,12 @@ Algorithm Engineer focused on 3D reconstruction, machine learning, and scalable 
 _Auto-updated daily by GitHub Actions based on recent repository activity._
 
 <!-- RECENT_REPOS:START -->
+- [HernandoR/contextscope](https://github.com/HernandoR/contextscope) — Dashboard for auditing and trimming Claude Code's per-turn context—skills, agents, hooks, MEMORY.md, sessions. _(TypeScript, updated: 2026-09-20)_
+- [HernandoR/agent-skillset](https://github.com/HernandoR/agent-skillset) — No description. _(Python, updated: 2026-09-20)_
 - [HernandoR/dotfiles](https://github.com/HernandoR/dotfiles) — :wrench: .files based on lix and mise _(Python, updated: 2026-09-18)_
 - [HernandoR/zbrew](https://github.com/HernandoR/zbrew) — A 5-20x faster experimental Homebrew alternative _(Rust, updated: 2026-09-17)_
 - [HernandoR/duck-viewer](https://github.com/HernandoR/duck-viewer) — Duck Viewer — an unofficial VS Code extension for querying data files with the DuckDB engine. Not affiliated with DuckDB Labs. _(TypeScript, updated: 2026-09-19)_
 - [HernandoR/miniflux-v2](https://github.com/HernandoR/miniflux-v2) — Minimalist and opinionated feed reader _(Misc, updated: 2026-09-06)_
-- [HernandoR/MrRSS](https://github.com/HernandoR/MrRSS) — A modern, cross-platform, and free AI RSS reader. 一个现代化、跨平台且免费的 AI RSS 阅读器. _(Go, updated: 2026-09-15)_
-- [HernandoR/Overleaf-Image-Helper](https://github.com/HernandoR/Overleaf-Image-Helper) — Adds functionality to paste screenshots from your clipboard to Overleaf cloud and on-premise. _(JavaScript, updated: 2026-09-09)_
 <!-- RECENT_REPOS:END -->
 
 ## Open Source Contributions
