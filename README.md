@@ -34,7 +34,7 @@ _Auto-updated daily by GitHub Actions based on recent repository activity._
 
 <!-- RECENT_REPOS:START -->
 - [HernandoR/zbrew](https://github.com/HernandoR/zbrew) — A 5-20x faster experimental Homebrew alternative _(Rust, updated: 2026-09-25)_
-- [HernandoR/contextscope](https://github.com/HernandoR/contextscope) — Dashboard for auditing and trimming Claude Code's per-turn context—skills, agents, hooks, MEMORY.md, sessions. _(TypeScript, updated: 2026-09-24)_
+- [HernandoR/contextscope](https://github.com/HernandoR/contextscope) — Dashboard for auditing and trimming Claude Code's per-turn context—skills, agents, hooks, MEMORY.md, sessions. _(TypeScript, updated: 2026-09-25)_
 - [HernandoR/agent-skillset](https://github.com/HernandoR/agent-skillset) — No description. _(Python, updated: 2026-09-20)_
 - [HernandoR/dotfiles](https://github.com/HernandoR/dotfiles) — :wrench: .files based on lix and mise _(Python, updated: 2026-09-18)_
 - [HernandoR/duck-viewer](https://github.com/HernandoR/duck-viewer) — Duck Viewer — an unofficial VS Code extension for querying data files with the DuckDB engine. Not affiliated with DuckDB Labs. _(TypeScript, updated: 2026-09-19)_
