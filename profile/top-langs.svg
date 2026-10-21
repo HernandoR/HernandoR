@@ -130,7 +130,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="99.57"
+          width="99.53"
           height="8"
           fill="#b2b7f8"
         />
@@ -138,9 +138,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="99.57"
+          x="99.53"
           y="0"
-          width="90.67"
+          width="90.63"
           height="8"
           fill="#3D6117"
         />
@@ -148,9 +148,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="190.24"
+          x="190.16"
           y="0"
-          width="24.88"
+          width="24.87"
           height="8"
           fill="#f34b7d"
         />
@@ -158,9 +158,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="215.12"
+          x="215.03"
           y="0"
-          width="23.25"
+          width="23.35"
           height="8"
           fill="#3572A5"
         />
@@ -168,7 +168,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="238.37"
+          x="238.38"
           y="0"
           width="17.69"
           height="8"
@@ -178,7 +178,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="246.06"
+          x="246.07"
           y="0"
           width="13.94"
           height="8"
@@ -191,14 +191,14 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#b2b7f8" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Verilog 39.83%
+        Verilog 39.81%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#3D6117" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TeX 36.27%
+        TeX 36.25%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
@@ -212,14 +212,14 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 9.30%
+        Python 9.34%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#663399" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        CSS 3.08%
+        CSS 3.07%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
