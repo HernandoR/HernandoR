@@ -35,7 +35,7 @@ _Auto-updated daily by GitHub Actions based on recent repository activity._
 <!-- RECENT_REPOS:START -->
 - [HernandoR/duck-viewer](https://github.com/HernandoR/duck-viewer) — Duck Viewer — an unofficial VS Code extension for querying data files with the DuckDB engine. Not affiliated with DuckDB Labs. _(TypeScript, updated: 2026-11-01)_
 - [HernandoR/dotfiles](https://github.com/HernandoR/dotfiles) — :wrench: .files based on lix and mise _(Python, updated: 2026-11-13)_
-- [HernandoR/contextscope](https://github.com/HernandoR/contextscope) — Dashboard for auditing and trimming Claude Code's per-turn context—skills, agents, hooks, MEMORY.md, sessions. _(TypeScript, updated: 2026-11-12)_
+- [HernandoR/contextscope](https://github.com/HernandoR/contextscope) — Dashboard for auditing and trimming Claude Code's per-turn context—skills, agents, hooks, MEMORY.md, sessions. _(TypeScript, updated: 2026-11-13)_
 - [HernandoR/agent-skillset](https://github.com/HernandoR/agent-skillset) — No description. _(Python, updated: 2026-10-23)_
 - [HernandoR/physics-handbook](https://github.com/HernandoR/physics-handbook) — No description. _(TeX, updated: 2026-10-12)_
 - [HernandoR/ripgit](https://github.com/HernandoR/ripgit) — A fast, searchable, self-hosted Git remote built with Durable Objects _(Rust, updated: 2026-10-03)_
